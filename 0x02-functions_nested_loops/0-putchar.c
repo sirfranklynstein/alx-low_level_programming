@@ -1,19 +1,37 @@
-#include main.h
-/*
- *main-Entry point
+#include "main.h"
+
+/**
+
+ * main- Entry point
+
  *
- *Return 0 (success)
+
+ * Return: 0 (Success)
+
  */
+
 int main(void)
+  
 {
+  
   int i;
-  char C[] = "_putchar"
+  
+  char p[] = "_putchar";
+  
 
-    for(i = 0; i < 3; i++)
+  
+  for (i = 0; i < 8; i++)
+    
+    {
+      
+      _putchar(p[i]);
+      
+    }
+  
+  _putchar('\n');
+  
 
-  {
-    _putchar(C[i]);
-  }
-
+  
   return (0);
+  
 }
