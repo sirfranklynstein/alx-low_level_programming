@@ -6,6 +6,14 @@
  */
 int main(void)
 {
-  printf("_putchar\n");
-  return(0);
+  int i;
+  char C[] = "_putchar"
+
+    for(i = 0; i < 3; i++)
+
+  {
+    _putchar(C[i]);
+  }
+
+  return (0);
 }
