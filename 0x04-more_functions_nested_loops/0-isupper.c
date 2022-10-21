@@ -1,10 +1,7 @@
 #include "main.h"
 /**
- *
  *  _isupper - function that returns 1 if uppercase else 0
- *
  *   @c: function parameter
- *
  *    return; 1 if c is uppercase else 0
  */
 int _isupper(int c)
