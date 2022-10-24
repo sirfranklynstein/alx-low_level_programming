@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * updates the value of n to 98
