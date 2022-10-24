@@ -1,21 +1,25 @@
 #include <stdio.h>
+
 /**
- * main - The prime factor of the number 612852475143
+ * main - entry block
  * @void: no argument
- * Return: Always 0 (Success)
+ * Return: 0
  */
+
 int main(void)
 {
-	long i, num = 612852475143;
+	long i, number = 612852475143;
 
-	for (i = 2; i <= num; i++)
+	for (i  = 2; i <= number; i++)
 	{
-		if (num % i == 0)
-			{
-				num = num / i;
-				i--;
-			}
+		if (number % i == 0)
+		{
+			number = number / i;
+			i--;
+		}
 	}
+
 	printf("%lu\n", i);
+
 	return (0);
 }
