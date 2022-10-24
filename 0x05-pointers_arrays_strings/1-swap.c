@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * swaps ints
- * @a: para1
- * @b:para2
+ * swaps_int - A function that swaps two integers
+ * @a: parameter1
+ * @b:parameter2
  *
- * return: 0
+ * Return : Always success (0)
  */
 void swap_int(int *a, int *b)
 {

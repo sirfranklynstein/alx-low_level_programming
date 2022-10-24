@@ -2,8 +2,8 @@
 
 /**
  * function returns length of string
- *
- * Return: Always 0
+ * @s: string
+ * Return: length of string
  */
 
 int _strlen(char *s)
